@@ -1,0 +1,8 @@
+a = [int(v) for v in input("Введите числа: ").split()]
+b = set()
+for num in a:
+    if num in b:
+        print('Yes')
+    else:
+        print('No')
+        b.add(num)

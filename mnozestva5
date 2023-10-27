@@ -1,0 +1,8 @@
+a = open('input.txt',)
+b = set()
+for d in DD:
+    DD = d.split()
+    for i in DD:
+        b.add(i.rstrip('\n'))
+a.close()
+print(len(b))   
